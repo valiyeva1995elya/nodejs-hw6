@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+#header{
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(170, 0, 255);
+    color: white;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.user_card{
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgba(170, 0, 255);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}

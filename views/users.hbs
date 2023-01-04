@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users page</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header id="header">
+        USERS
+    </header>
+
+    <div id="container">
+        {{#each users}}
+        <div class="user_card">
+
+            <div class="user_name">User {{this.id}}</div>
+            <div class="user_name">name: {{this.name}}</div>
+            <div class="user_login">login: {{this.login}}</div>
+            <div class="user_password">password: {{this.password}}</div>
+        </div>
+        {{/each}}
+
+    </div>
+</body>
+</html>
